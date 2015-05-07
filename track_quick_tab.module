@@ -1,0 +1,8 @@
+<?php
+
+// Hook_init
+function track_quick_tab_init()
+{
+	drupal_add_js(drupal_get_path('module', 'track_quick_tab') . '/js/local.js');
+  
+}
